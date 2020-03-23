@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lecture02 Mariami Chakhvadze</string>
+    <string name="wallpaper_description">Cubes</string>
+    <string name="welcome_message">Welcome in Cubes</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="button_text">Log In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="avatar_description">Female Avatar</string>
+</resources>
