@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment02 Mariami Chakhvadze</string>
+    <string name="my_full_name">Mariami Chakhvadze</string>
+    <string name="full_name">Full Name</string>
+    <string name="profile_picture_description">Profile Picture</string>
+    <string name="my_gender">Female</string>
+    <string name="my_birthday">1999-09-21</string>
+    <string name="my_email">mariami.chakhvadze.1@btu.edu.ge</string>
+    <string name="section_title">Basic Info</string>
+    <string name="edit_button_text">Edit</string>
+    <string name="save_button_text">Save</string>
+    <string name="email">Email</string>
+    <string name="birthday">Birthday</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+</resources>
