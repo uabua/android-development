@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment03 Mariami Chakhvadze</string>
+    <string name="add_item_button">Add Item</string>
+    <string name="add_button">Add</string>
+    <string name="avatar_description">Bunny Avatar</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="title_edit_text_hint">max 15 character</string>
+    <string name="description_edit_text_hint">max 90 character</string>
+</resources>
