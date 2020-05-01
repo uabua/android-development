@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment04 Mariami Chakhvadze</string>
+    <string name="avatar_description">Avatar</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">email@example.com</string>
+    <string name="text">Click to see more details!</string>
+    <string name="greeting">Hello! ^_^ </string>
+    <string name="button_text">Back to user list</string>
+    <string name="description">Here is my email address. If you have a question or just want to talk, send me a message!</string>
+</resources>
