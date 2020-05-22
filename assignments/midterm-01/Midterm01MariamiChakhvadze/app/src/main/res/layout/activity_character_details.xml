@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F2F2F"
+    tools:context=".CharacterDetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainCharacterToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/toolbar_icon"
+            android:src="@drawable/ic_rick_and_morty_black_and_white" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/characterImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/mainCharacterToolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/avatar_description" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/characterImageView"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/characterNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/characterStatusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/characterSpeciesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/characterTypeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/characterGenderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

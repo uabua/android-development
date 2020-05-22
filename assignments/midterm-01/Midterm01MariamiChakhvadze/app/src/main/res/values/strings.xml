@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Midterm01 Mariami Chakhvadze</string>
+    <string name="welcome_forgot_password">Haha, JK. You can reset it anytime!</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="already_member">Already a member?</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="singup">Sign up</string>
+    <string name="register">REGISTER</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="back_to_login">Back to login</string>
+    <string name="avatar_description">avatar</string>
+    <string name="description">Click to see more details about this character!</string>
+    <string name="name">name</string>
+    <string name="welcome_text">It\'s time to get Schwifty!</string>
+    <string name="login_avatar">login rick and morty</string>
+    <string name="toolbar_icon">toolbar icon</string>
+</resources>
