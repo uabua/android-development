@@ -16,3 +16,7 @@
 * Gson
 * Firebase Authentication
 * RecyclerView 
+
+### დიზაინი
+
+აპლიკაციის დიზაინი მოვარგე ჩემს მობილურს და სქრინების ნახვა შეგიძლიათ [screenshots](https://github.com/uabua/android-development/tree/master/assignments/midterm-01/screenshots) ფოლდერში.
