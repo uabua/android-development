@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    // generate random number
     fun generateRandomNumber(view: View) {
         val randomNumber = (1..10).shuffled().first()
 
