@@ -5,6 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.view.*
+import kotlinx.android.synthetic.main.activity_main.view.noItemsTextView
 import kotlinx.android.synthetic.main.task_recyclerview_layout.view.*
 
 class TaskRecyclerViewAdapter(
@@ -27,6 +30,10 @@ class TaskRecyclerViewAdapter(
 
             itemView.setOnLongClickListener {
                 activity.tasks.removeAt(adapterPosition)
+
+                if (tasks.isEmpty()) {
+                    activity.noItemsTextView.visibility = View.VISIBLE;
+                }
 
                 notifyItemRemoved(adapterPosition)
 

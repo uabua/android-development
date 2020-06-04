@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
@@ -51,13 +52,13 @@ class MainActivity : AppCompatActivity() {
                     .insertAll(Task("Create Task!", "Create tasks to be your day well organized!"))
                 db.taskDao().insertAll(
                     Task(
-                        "Press Long to Delete Task",
+                        "Delete Task",
                         "To delete task just press long on it."
                     )
                 )
                 db.taskDao().insertAll(
                     Task(
-                        "Press on The Task to See Details or Edit Task!",
+                        "See & Edit Task!",
                         "Press on the task to see details or edit task."
                     )
                 )
@@ -94,6 +95,8 @@ class MainActivity : AppCompatActivity() {
 
                 runOnUiThread {
                     tasks.add(task)
+
+                    noItemsTextView.visibility = View.GONE
 
                     adapter.notifyItemInserted(tasks.size - 1)
                     recyclerView.scrollToPosition(tasks.size - 1)
